@@ -1,6 +1,3 @@
-## Specify phone tech before including full_phone
-$(call inherit-product, vendor/cm/config/gsm.mk)
-
 # Inherit device configuration for cooperve
 $(call inherit-product, device/samsung/cooperve/full_cooperve.mk)
 
@@ -19,3 +16,4 @@ PRODUCT_CHARACTERISTICS := phone
 
 PRODUCT_RELEASE_NAME := GalaxyCooperVE
 PRODUCT_VERSION_DEVICE_SPECIFIC := -GT-S5830i
+

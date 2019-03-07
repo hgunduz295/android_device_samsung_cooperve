@@ -29,8 +29,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_AAPT_CONFIG := normal mdpi
 PRODUCT_AAPT_PREF_CONFIG := mdpi
 
-$(call inherit-product, device/mdpi-common/mdpi.mk)
-
 # Inherit products
 $(call inherit-product, device/samsung/bcm21553-common/common.mk)
 $(call inherit-product, vendor/samsung/cooperve/vendor.mk)
